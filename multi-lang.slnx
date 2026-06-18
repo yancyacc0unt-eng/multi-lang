@@ -1,0 +1,13 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ConsoleApplication-test/ConsoleApplication-test.fsproj">
+    <BuildDependency Project="cppDLL/cppDLL.vcxproj" />
+  </Project>
+  <Project Path="cppDLL/cppDLL.vcxproj" Id="e3e3e108-d2d3-48bc-aa66-d50f40ca6adc" />
+  <Project Path="CS_Library/CS_Library.csproj" Id="1e113989-acb8-4a7c-9f31-762fddcd7ca3" />
+  <Project Path="VB_Library/VB_Library.vbproj" Id="38eb3298-a091-46a1-9d29-fdd416ee1bf6" />
+</Solution>
