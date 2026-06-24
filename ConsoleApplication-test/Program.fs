@@ -12,9 +12,9 @@ let from whom =
 let main argv =
     printfn "Hello world %s" (from "F#")
     let number = random(System.DateTime.Now.Ticks)
-    printfn "Random number from C++: %d" number
+    printfn "Random number from C++ : %d" number
     let testobj = new CS_Library.test()
-    printfn "Message from C#: %s" (from (testobj.getmsg()))
+    printfn "Hello world %s" (from (testobj.getmsg()))
     let class1obj = new Class1()
     class1obj.SayHello() |> ignore
     0
